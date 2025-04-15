@@ -1,0 +1,30 @@
+{
+    "name": "mantraideas/laravel-connectips",
+    "description": "Laravel Connectips Payment Gateway Integration",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mantraideas\\LaravelConnectips\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dipesh Khanal",
+            "email": "dipeshkhanal79@gmail.com",
+            "homepage": "https://www.khanaldipesh.com.np",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-openssl": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mantraideas\\LaravelConnectips\\LaravelConnectipsServiceProvider"
+            ]
+        }
+    }
+}
