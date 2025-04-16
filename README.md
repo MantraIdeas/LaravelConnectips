@@ -113,7 +113,7 @@ By using the ```transaction_id``` you can check your payments table to get amoun
     $connectips = new \Mantraideas\LaravelConnectips\LaravelConnectips();
     $transactionId = request()->query('TXNID'); // Replace with the actual transaction ID
     $transactionAmount = \App\Models\Payment::where('transaction_id',$transactionId)->first()?->amount; // Replace with the actual transaction amount
-    $connectips->validatePayment($transactionId,$transactionAmount);
+    $paymentValidation = $connectips->validatePayment($transactionId,$transactionAmount);
 ```
 This will return transaction status as follows.
 ```aiignore
