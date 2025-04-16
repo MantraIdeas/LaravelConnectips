@@ -61,7 +61,7 @@ class LaravelConnectips
      * Generates transaction data with a signed token.
      *
      * @param string $transactionId Unique transaction ID.
-     * @param float $transactionAmount Transaction amount.
+     * @param int $transactionAmount Transaction amount.
      * @param string $referenceId Reference ID for the transaction.
      * @param string $remarks Remarks for the transaction.
      * @param string $particulars Particulars for the transaction.

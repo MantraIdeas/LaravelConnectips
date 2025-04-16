@@ -8,5 +8,5 @@ return array(
     'successUrl' => env('CONNECTIPS_SUCCESS_URL'),
     'failureUrl' => env('CONNECTIPS_FAILURE_URL'),
     'pemPath' => env('CONNECTIPS_PEM_PATH'),
-    'connectIpsUrl' => env('CONNECTIPS_URL', 'https://uat.connectips.com/connectipswebgw/loginpage'),
+    'connectIpsUrl' => env('CONNECTIPS_URL', 'https://uat.connectips.com'),
 );
